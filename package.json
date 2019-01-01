@@ -1,0 +1,34 @@
+{
+  "name": "presto-card-cli",
+  "version": "2.0.0",
+  "engines": {
+    "node": ">=6"
+  },
+  "main": "dist",
+  "module": "lib",
+  "bin": {
+    "presto-card": "bin/presto-card"
+  },
+  "license": "AGPL-3.0",
+  "private": false,
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3"
+  },
+  "scripts": {
+    "build": "babel lib --out-dir dist",
+    "lint": "eslint lib",
+    "prepublish": "yarn build",
+    "test": "jest"
+  }
+}
