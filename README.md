@@ -1,4 +1,4 @@
-# presto-card-cli
+# presto-card-cli ![Build Status](https://api.travis-ci.org/cedricblondeau/presto-card-cli.svg?branch=master)
 
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com)
 
