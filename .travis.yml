@@ -1,0 +1,20 @@
+language: node_js
+
+node_js:
+  - 6
+  - 8
+
+dist: trusty
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y libsecret-1-dev
+
+sudo: false
+
+script:
+  - yarn test
+  - yarn lint
+
+notifications:
+  email: false
