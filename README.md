@@ -38,7 +38,7 @@ This tool uses [node-keytar](https://github.com/atom/node-keytar) to store crede
 
 #### Get the balance
 
-This tool uses [presto-card-js](https://www.npmjs.com/package/presto-card-js) as a back end.
+This tool uses [presto-card-js](https://github.com/bitbearstudio/presto-card-js) as a back end.
 
 ## Common issues
 
