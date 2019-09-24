@@ -44,7 +44,7 @@ This tool uses [presto-card-js](https://github.com/bitbearstudio/presto-card-js)
 
 #### `SyntaxError: Unexpected token` error
 
-This may happen when using an old version of NodeJS. This tool requires NodeJS 6+.
+This may happen when using an old version of NodeJS. This tool requires NodeJS 8+.
 
 #### `Error: Module version mismatch. Expected 48, got 59.` or equivalent
 
