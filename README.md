@@ -14,7 +14,7 @@ I wrote about this tool on my blog: https://blog.cedricblondeau.com/2017/12/23/c
 yarn global add presto-card-cli
 ```
 
-Requires NodeJS 6+.
+Requires NodeJS 8+.
 
 ## Usage
 
