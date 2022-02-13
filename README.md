@@ -52,10 +52,9 @@ This may happen if `presto-card-cli` has been installed with a different version
 
 ## FAQ
 
-#### Q: I have only one card and it's kind of boring to type my username again and again when I want to check my balance. Can't we set up a default account?
+#### Q: I have only one card. Can I set up a default account?
 
-Not at this time. But we can create an alias in the meantime.
-For example: `alias pb='presto-card balance supercat'`
+Not at this time. But you can set up an alias. For example: `alias pb='presto-card balance supercat'`
 
 #### Q: What if I don't have a Presto account? Can I use this tool with a Presto card number?
 
